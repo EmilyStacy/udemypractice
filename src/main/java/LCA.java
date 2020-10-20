@@ -1,4 +1,4 @@
-
+//from geek for geek & youtube
      class Node {
         int data;
         Node left;

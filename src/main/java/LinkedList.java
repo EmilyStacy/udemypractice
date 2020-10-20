@@ -1,7 +1,7 @@
 import org.w3c.dom.Node;
 
 
-
+//from geek for geek & youtube
 public class LinkedList<S> {
 
     private Node head;
