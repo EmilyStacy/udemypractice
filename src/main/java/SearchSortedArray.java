@@ -4,8 +4,8 @@ public class SearchSortedArray {
 //from geek for geek & youtube
     public static void main(String[] args) {
         int[]testArray = {1,2,3,6,7,8,8,9,10};
-        //System.out.println(Arrays.toString(searchRange(testArray,8)));
-        System.out.println(Arrays.toString(searchRange(testArray,1)));
+        System.out.println(Arrays.toString(searchRange(testArray,8)));
+        //System.out.println(Arrays.toString(searchRange(testArray,1)));
     }
 
     private static int[] searchRange(int[] nums, int target) {

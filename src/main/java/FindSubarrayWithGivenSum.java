@@ -1,12 +1,10 @@
 /*package whatever //do not write package name here */
 
-import java.util.*;
 import java.lang.*;
-import java.io.*;
 
-class GFG {
+class FindSubarrayWithGivenSum {
     public static void main (String[] args) {
-        GFG gfg = new GFG();
+        FindSubarrayWithGivenSum gfg = new FindSubarrayWithGivenSum();
         int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8,9,10 };
         int n = arr.length;
         gfg.subArraySum(arr,n,24);
@@ -21,7 +19,7 @@ class GFG {
             // If curr_sum exceeds the sum, 
             // then remove the starting elements 
             while (curr_sum > sum && start < i - 1) {
-                curr_sum = curr_sum - arr[start];
+                    curr_sum = curr_sum - arr[start];
                 start++;
             }
 
